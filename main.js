@@ -1,6 +1,5 @@
-var speechconfiguracao =window.webkitSpeechRecognition;
-var configuracao = new  speechconfiguracao();
-
+var SpeechRecognition = window.webkitSpeechRecognition; 
+var recognition = new SpeechRecognition();
 
 var caixadetexto = document.getElementById("caixadetexto")
 function selfie() {
