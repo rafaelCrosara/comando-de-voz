@@ -11,7 +11,7 @@ function selfie() {
 
 configuracao.onresult = function(e){
     console.log(e);
-    conteudo = e.results[0][0].transcrpit
+    conteudo = e.results[0][0].transcrpit;
     caixadetexto.innerHTML = conteudo;
     if (conteudo =="tireminhaselfie") {
         console.log("tirando sua selfie")    
