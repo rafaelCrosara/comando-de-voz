@@ -12,7 +12,7 @@ configuracao.onresult = function(e){
     console.log(e);
  var conteudo = e.results[0][0].transcript;
     caixadetexto.innerHTML = conteudo;
-    if (conteudo =="tireminhaselfie") {
+    if (conteudo =="tire minha selfie") {
         console.log("tirando sua selfie")    
     }
 }
